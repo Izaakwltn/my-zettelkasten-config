@@ -4,7 +4,9 @@ This is my basic zettelkasten config, built using `org-roam`.
 
 My config depends on two catch-all ledgers: a journal, and a reading list, for fleeting notes and media I plan to consume respectively.
 
-Ledger/list/aggregate files can be be initialized using `M-o p <title> RET z`, and then `C-c C-c` after making any desired changes to the header.
+> Enough idleness and indolence! Every day open this little notebook and write in it no less than half a page. If you can write nothing, at least write down what Gogol advised, that today I’m not capable of writing anything. Always write with interest and regard writing as a holiday.
+
+> Daniil Kharms
 
 ## Setup:
 

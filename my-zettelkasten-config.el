@@ -34,14 +34,14 @@
 	 :target (node "journal")
 	 :unnarrowed t
 	 :prepend t
-	 :empty-lines 1)
+	 :empty-lines 3)
 	("k" "add to reading list" entry
-	 "* ${title}\nEntered:%U\n %i\n** Metadata:\n- Title:\n- Medium:\n- Author(s):%?\n- Date of Publication:\n- Subject(s):\n- Link/Source:\n\n** Blurb:\n"
+	 "* ${title}\nEntered:%U\n %i\n** Metadata:\n- Title:\n- Medium:\n- Author(s):\n- Date of Publication:\n- Subject(s):\n- Link/Source:\n\n** Blurb:\n%?"
 	 ;; Make sure to define a permanent note "reading-list" first
 	 :target (node "reading-list")
 	 :unnarrowed t
 	 :prepend t
-	 :empty-lines 1)
+	 :empty-lines 5)
 	("l" "literature" plain "%?"
 	 :target (file+head "literature-%<%Y%m%d%H%M%S>-${slug}.org"
 			    "#+title: ${title}\n#+date: %U\n %i\n\n* Metadata:\n- Title\n- Medium:\n- Author(s):\n- Date of Publication:\n- Subject(s):\n- Link/Source:\n\n\n* Notes:\n")
